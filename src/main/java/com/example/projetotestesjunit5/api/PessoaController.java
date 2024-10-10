@@ -31,7 +31,7 @@ public class PessoaController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Busca realizada com sucesso"),
             @ApiResponse(responseCode = "422", description = "Dados de requisição inválida"),
-            @ApiResponse(responseCode = "400", description = "Parametros inválidos"),
+            @ApiResponse(responseCode = "400", description = "Parâmetros inválidos"),
             @ApiResponse(responseCode = "500", description = "Erro ao realizar busca dos dados"),
     })
     @GetMapping("/cpf")
