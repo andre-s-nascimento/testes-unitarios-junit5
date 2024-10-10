@@ -2,7 +2,6 @@ package com.example.projetotestesjunit5.infrastructure;
 
 import com.example.projetotestesjunit5.infrastructure.entity.Pessoa;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.List;
